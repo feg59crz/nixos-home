@@ -20,6 +20,6 @@
     # awesome.enable = true;
 
     # terminal
-    # kitty.enable = true;
+    kitty.enable = true;
   };
 }

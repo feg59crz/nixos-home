@@ -4,5 +4,6 @@
   imports = [
     ./packages
     ./git
+    ./kitty
   ];
 }
