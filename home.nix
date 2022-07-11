@@ -21,5 +21,7 @@
 
     # terminal
     kitty.enable = true;
+
+    vscode.enable = true;
   };
 }

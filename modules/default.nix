@@ -5,5 +5,7 @@
     ./packages
     ./git
     ./kitty
+
+    ./vscode
   ];
 }
