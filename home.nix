@@ -24,5 +24,7 @@
     tmux.enable = true;
 
     vscode.enable = true;
+
+    python.enable = true;
   };
 }

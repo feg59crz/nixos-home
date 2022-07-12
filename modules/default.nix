@@ -7,5 +7,6 @@
     ./kitty
     ./tmux
     ./vscode
+    ./python
   ];
 }
