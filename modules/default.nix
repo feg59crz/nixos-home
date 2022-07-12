@@ -5,7 +5,7 @@
     ./packages
     ./git
     ./kitty
-
+    ./tmux
     ./vscode
   ];
 }

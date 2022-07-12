@@ -21,6 +21,7 @@
 
     # terminal
     kitty.enable = true;
+    tmux.enable = true;
 
     vscode.enable = true;
   };
