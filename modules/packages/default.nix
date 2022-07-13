@@ -13,7 +13,7 @@ in {
         # gui
         qbittorrent
         # virtualization 
-        distrobox
+        distrobox xorg.xhost
       ];
     };
 }
