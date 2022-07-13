@@ -2,11 +2,7 @@
 
 {
   config = {
-    home.username = "eee";
-    home.homeDirectory = "/home/eee";
-
-    home.stateVersion = "22.05";
-
+    home.stateVersion = "21.11";
     programs.home-manager.enable = true;
   };
   imports = [ ./modules/default.nix ];
@@ -20,11 +16,12 @@
     # awesome.enable = true;
 
     # terminal
-    kitty.enable = true;
+    # kitty.enable = true;
     tmux.enable = true;
 
-    vscode.enable = true;
+    # vscode.enable = true;
 
     python.enable = true;
   };
 }
+

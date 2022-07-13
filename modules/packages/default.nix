@@ -9,11 +9,10 @@ in {
     config = mkIf cfg.enable {
       home.packages = with pkgs; [
         # cli
-        bat fd ripgrep
-        # gui
-        qbittorrent
+        vim nano wget curl bat fd ripgrep
+        
         # virtualization 
-        distrobox xorg.xhost
+        podman distrobox
       ];
     };
 }
