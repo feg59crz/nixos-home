@@ -8,8 +8,12 @@ in {
     options.modules.packages = { enable = mkEnableOption "packages"; };
     config = mkIf cfg.enable {
       home.packages = with pkgs; [
+        # cli
         bat fd ripgrep
-        qbittorrent        
+        # gui
+        qbittorrent
+        # virtualization 
+        distrobox
       ];
     };
 }
