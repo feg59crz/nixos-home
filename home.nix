@@ -18,8 +18,7 @@
     # terminal
     # kitty.enable = true;
     tmux.enable = true;
-
-    # vscode.enable = true;
+    nano.enable = true;
 
     python.enable = true;
   };
