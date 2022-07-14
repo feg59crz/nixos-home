@@ -9,7 +9,7 @@ in {
     config = mkIf cfg.enable {
       home.packages = with pkgs; [
         # cli
-        vim nano wget curl bat fd ripgrep
+        openssh vim nano wget curl bat fd ripgrep
         
         # virtualization 
         podman distrobox
