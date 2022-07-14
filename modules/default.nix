@@ -6,6 +6,7 @@
     ./git
     ./kitty
     ./tmux
+    ./nano
     ./vscode
     ./python
   ];

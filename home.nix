@@ -22,7 +22,7 @@
     # terminal
     kitty.enable = true;
     tmux.enable = true;
-
+    nano.enable = true;
     vscode.enable = true;
 
     python.enable = true;
