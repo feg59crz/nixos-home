@@ -11,6 +11,8 @@ in {
         # cli
         bat fd ripgrep
         # gui
+        obs-studio
+        obsidian
         qbittorrent
         # virtualization 
         distrobox xorg.xhost
